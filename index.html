@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+
+    <style>
+        td {
+            padding: 20px;
+            margin: 20px;
+        }
+        td:hover {
+            background-color: rgb(177, 177, 177);
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 id="instructions">Player 1, choose your option</h1>
+    <table id="choices_table">
+        <tr>
+            <td onclick="choice('rock')">
+                <h1>ROCK</h1>
+            </td>
+            <td onclick="choice('paper')">
+                <h1>PAPER</h1>
+            </td>
+            <td onclick="choice('scissors')">
+                <h1>SCISSORS</h1>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
